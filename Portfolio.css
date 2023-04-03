@@ -1,0 +1,206 @@
+#grid_layout{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 700px 200px 400px 740px 200px 400px 740px 200px 400px 740px 200px 400px 740px 400px 400px;
+    display: grid;
+}
+
+#main_screen{
+    grid-column: 1/span 3;
+    grid-row: 2;
+    background-image: url(portfolio.jpg);
+    background-size: cover;
+    padding-top: 200px;
+    padding-left: 950px;
+    padding-right: 50px;
+    color: white;
+}
+
+#image_title{
+    font-family: 'Cabin', serif;
+    font-size: 30px;
+}
+#image_description{
+    font-family: 'Raleway', serif;
+    font-size: 20px;
+    padding-top: 30px;
+}
+#image_button{
+    margin-top: 20px;
+    font-family: 'Quicksand', serif;
+    font-size: 15px;
+    width: 150px;
+    height: 30px;
+    background-color: #FFBD59;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+.title{
+    font-family: 'Cabin', serif;
+    font-size: 20px;
+}
+.description{
+    font-family: 'Raleway', serif;
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+#anima_description{
+    padding-top: 50px;
+    grid-column: 1/span 3;
+    grid-row: 3;
+    text-align: center;
+    padding-right:300px;
+    padding-left: 300px;
+    background-color: #FFBD59;
+}
+
+#anima_playstore_icons{
+    grid-row: 4;
+    grid-column: 1/span 3;
+    display: flex;
+    text-align: center;
+    padding-left: 150px;
+}
+#anima_playstore{
+grid-column: 1/span 3;
+grid-row: 5;
+background-image: url(anima_play_store.png);
+background-size: contain;
+}
+
+#royalty_black_description{
+    padding-top: 50px;
+    grid-column: 1/span 3;
+    grid-row: 6;
+    text-align: center;
+    padding-right:300px;
+    padding-left: 300px;
+    background-color: #FFBD59;
+}
+#royalty_black_icons{
+    grid-row: 7;
+    grid-column: 1/span 3;
+    display: flex;
+    text-align: center;
+    padding-left: 350px;
+}
+#royalty_black{
+    grid-column: 1/span 3;
+    grid-row: 8;
+    background-image: url(royalty_black_login.png);
+    background-size: cover;
+}
+
+#anima_business_description{
+    padding-top: 50px;
+    grid-column: 1/span 3;
+    grid-row: 9;
+    text-align: center;
+    padding-right:300px;
+    padding-left: 300px;
+    background-color: #FFBD59;
+}
+#anima_business_icons{
+    grid-row: 10;
+    grid-column: 1/span 3;
+    display: flex;
+    text-align: center;
+    padding-left: 350px;
+}
+#anima_business{
+    grid-column: 1/span 3;
+    grid-row: 11;
+    background-image: url(anima_business.png);
+    background-size: contain;
+}
+#orange_business_description{
+    padding-top: 50px;
+    grid-column: 1/span 3;
+    grid-row: 12;
+    text-align: center;
+    padding-right:300px;
+    padding-left: 300px;
+    background-color: #FFBD59;
+}
+#orange_business_icons{
+    grid-row: 13;
+    grid-column: 1/span 3;
+    display: flex;
+    text-align: center;
+    padding-left: 150px;
+}
+#orange_business{
+    grid-column: 1/span 3;
+    grid-row: 14;
+    background-image: url(orange_website.png);
+    background-size: cover;
+}
+#conclusion{
+    padding: 200px;
+    grid-column: 1/span 3;
+    grid-row: 15;
+    font-size: 25px;
+    font-family: 'Raleway', serif;
+    text-align: center;
+}
+
+#footer{
+    grid-row: 16;
+    grid-column: 1/span 3;
+    background-image: url(layout_design.jpg);
+    background-size: cover;
+    padding-top: 200px;
+}
+
+.interactive_icon{
+    background-image: url(Interactive.png);
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.complex_icon{
+    background-image: url(Complex.png);
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.layout_icon{
+    background-image: url(Layouting.png);
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.minimalist_icon{
+    background-image: url(Minimalist.png);
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.icon_title{
+    font-family: 'Cabin', serif;
+    font-size: 20px;
+    padding-top: 80px;
+}
+
+.icon_description{
+    font-family: 'Raleway', serif;
+    font-size: 18px;
+    padding-top: 20px;
+}

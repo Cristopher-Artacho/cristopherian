@@ -1,0 +1,53 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    cursor: pointer;
+}
+button:hover{
+    transition: 1s;
+    opacity: 0.6;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+    cursor: pointer;
+}
+li:hover{
+    opacity: 0.9;
+    transition: 1s;
+    color: white;
+}
+button{
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.4;
+    transition: 1s;
+}
+
+th, td{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+th{
+    padding-bottom: 30px;
+    font-family: 'Cabin', serif;
+    font-size: 20px;
+    color: white;
+}
+td{
+    font-family: 'Poppins', serif;
+    font-size: 15px;
+    color: white;
+    padding-bottom: 10px;
+}

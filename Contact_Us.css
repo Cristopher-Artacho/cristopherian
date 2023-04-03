@@ -1,0 +1,78 @@
+#grid_layout{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 900px 200px 400px;
+    display: grid;
+}
+
+#contact_main_screen{
+    grid-row: 2;
+    grid-column: 1/span 3;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 0.50)), url(contact_us.jpg);
+    background-size: cover;
+    padding-left: 200px;
+    padding-right: 500px;
+    padding-top: 200px;
+    color: white;
+
+}
+
+.title{
+    font-family: 'Cabin', serif;
+    font-size: 20px;
+}
+.description{
+    font-family: 'Raleway', serif;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#my_credentials{
+    grid-row: 2;
+    grid-column: 3;
+    padding-left: 200px;
+    padding-top: 200px;
+    color: white;
+}
+.client_credentials{
+    width: 300px;
+    height: 20px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 40px;
+}
+.credential_title{
+    font-family: 'Cabin', serif;
+    font-size: 20px;
+}
+.credential_description{
+    font-family: 'Raleway', serif;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#checklist{
+    padding-top: 30px;
+}
+
+#submit_button{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 250px;
+    font-family: 'Quicksand', serif;
+    font-size: 15px;
+    width: 150px;
+    height: 30px;
+    background-color: #FFBD59;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+#footer{
+    grid-row: 4;
+    grid-column: 1/span 3;
+    background-image: url(layout_design.jpg);
+    background-size: cover;
+    padding-top: 200px;
+}

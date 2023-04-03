@@ -1,0 +1,42 @@
+
+#navigation_bar{
+    grid-row: 1;
+    grid-column: 1/span 3;
+    display: flex;
+    grid-column: 1 / span 3;
+    grid-row: 1;
+    padding-left: 50px;
+    padding-right: 50px; 
+    background-color: #FFBD59;
+}
+
+input{
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-family: 'Poppins', serif;
+    font-size: 15px;
+}
+.navbar_buttons{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-family: 'Poppins', serif;
+    font-size: 20px;
+
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border: black;
+}
+
+#company_name{
+    font-family: 'Cabin', serif;
+    font-size: 30px;
+    padding-top: 10px;
+}
+

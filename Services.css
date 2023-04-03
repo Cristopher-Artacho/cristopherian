@@ -1,0 +1,149 @@
+#grid_layout{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 600px 300px 900px 900px 900px 400px 400px;
+    display: grid;
+}
+
+#services_picture{
+    grid-row: 2;
+    grid-column: 1/span 3;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(services.jpg);
+    background-size: cover;
+}
+
+#icon_layout{
+    grid-row: 3;
+    grid-column: 1/span 3;
+    display: flex;
+    margin-top: -200px;
+    text-align: center;
+    padding-left: 150px;
+}
+
+#icon_1{
+    background-image: url(website_development.png);
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+#icon_2{
+    background-image: url(website_hosting.png);
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+#icon_3{
+    background-image: url(website_maintenance.png);
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.title{
+    font-family: 'Cabin', serif;
+    font-size: 20px;
+    padding-top: 90px;
+}
+.description{
+    font-family: 'Raleway', serif;
+    font-size: 15px;
+    padding-top: 50px;
+}
+
+.see_more_buttons{
+    margin-top: 20px;
+    font-family: 'Quicksand', serif;
+    font-size: 12px;
+    width: 100px;
+    height: 30px;
+    background-color: #FFBD59;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+.contact_buttons{
+    margin-top: 30px;
+    font-family: 'Quicksand', serif;
+    font-size: 20px;
+    width: 200px;
+    height: 60px;
+    background-color: #FFBD59;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+.service_titles{
+    font-family: 'Cabin', serif;
+    font-size: 40px;
+    padding-top: 90px;
+}
+
+.service_description{
+    font-family: 'Raleway', serif;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+#website_development_layout{
+    grid-row: 4;
+    grid-column: 1/span 3;
+    background-image: url(pexels-tranmautritam-69432.jpg);
+    background-size: cover;
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-right: 800px;
+    color: white;
+}
+
+#website_hosting_layout{
+    margin-top: 50px;
+    grid-row: 5;
+    grid-column: 1/span 3;
+    background-image: url(services_website_hosting.png);
+    background-size: cover;
+    padding-top: 200px;
+    padding-right: 100px;
+    padding-left: 800px;
+    color: white;
+}
+
+#website_maintenance_layout{
+    margin-top: 50px;
+    grid-row: 6;
+    grid-column: 1/span 3;
+    background-image: url(website-maintenance-service.png);
+    background-size: cover;
+    padding-top: 200px;
+    padding-right: 100px;
+    padding-left: 800px;
+    color: white;
+}
+
+#conclusion{
+    padding: 200px;
+    grid-column: 1/span 3;
+    grid-row: 7;
+    font-size: 25px;
+    font-family: 'Raleway', serif;
+    text-align: center;
+
+}
+
+#footer{
+    grid-row: 8;
+    grid-column: 1/span 3;
+    background-image: url(layout_design.jpg);
+    background-size: cover;
+    padding-top: 200px;
+}
